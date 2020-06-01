@@ -7,6 +7,14 @@
   box-shadow: var(--sidebar-shadow-mobile);
 }
 
+.sideBarList {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 @media only screen and (min-width: 1200px) {
   .sideBarContainer {
     width: var(--sidebar-width);
@@ -25,5 +33,11 @@
     background: rgba(0, 0, 0, 0.3);
     z-index: var(--sidebar-z-index);
     transition: 200ms ease;
+  }
+
+  .sideBarList {
+    display: flex;
+    flex-direction: column;
+    margin-top: var(--spacing-medium);
   }
 }

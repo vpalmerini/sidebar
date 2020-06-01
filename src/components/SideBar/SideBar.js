@@ -14,7 +14,7 @@ const SideBar = () => {
     <>
       <div className={`${isHovered ? "sideBarOverlay" : null}`}></div>
       <nav className="sideBarContainer" ref={hoverRef}>
-        <ul>
+        <ul className="sideBarList">
           {items.map((item) => {
             return (
               <SideBarItem
@@ -22,6 +22,7 @@ const SideBar = () => {
                 text={item.text}
                 icon={item.icon}
                 to={item.to}
+                hover={isHovered}
               />
             );
           })}
