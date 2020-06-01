@@ -1,8 +1,11 @@
 :root {
   --gray-dark: #37474f;
+  --gray-darkest: #222b2f;
 
   --sidebar-width: 80px;
   --sidebar-height: 60px;
+  --sidebar-item-height: 50px;
+  --sidebar-item-height-desktop: 70px;
 
   --sidebar-z-index: 1000;
 }

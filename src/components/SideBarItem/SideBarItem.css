@@ -1,0 +1,18 @@
+.itemLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--sidebar-item-height);
+  border-radius: 4px;
+  transition: 0.2s ease;
+  margin: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+}
+.itemLink:hover {
+  background-color: var(--gray-darkest);
+}
+.itemText {
+  display: none;
+}
